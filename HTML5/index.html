@@ -1,0 +1,21 @@
+---
+layout: page
+title: HTML5
+---
+ 
+  HTML5 lessons through graphic novels and hands-on learning.
+
+ <ul class= "list-unstyled">
+  
+  {% for post in site.tags.HTML5 %}
+
+ <li>
+    <a href="{{ post.url }}">
+      <h3>{{ post.title }}</h3>
+    </a>
+  </li>
+
+
+  {% endfor %}
+
+</ul>
