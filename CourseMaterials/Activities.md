@@ -2,6 +2,7 @@
 
 Just a brainstorming list for activities...
 
+- Take a trip to the Art Institute, make a game about your experience
 - Critical play/analysis of a series of free games
 - Storyboarding
 - Principles of animation

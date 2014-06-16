@@ -1,23 +1,33 @@
 # Detailed Syllabus #
 
+
 ## Week 1: Designing a series of games in Stencyl and HTML5 ##
 
+
 ### Session 1: What is a game ###
-- Introductions and icebreakers
-- Discussion: General classroom rules
+
+- **Discussion**: Introductions 
+	- Who are we
+	- Who are the students
+	- Icebreakers
+- **Discussion**: Overview and Schedule
+	- Writing (on the whiteboard) what we will we cover in the camp
+	- Writing (on the whiteboard) what we will we cover today
+- **Discussion**: General classroom rules
 	- Brainstorming the guidelines with the students
 	- Laying out how the sharing of resources will be used
 	- Write everything on the whiteboard
-- Discussion: video games as a form of creative expression
+- **Discussion**: video games as a form of creative expression
 	- What is the definition of a game?
+	- How does a game differ from comics, movies, books, etc.?
 	- What types of games exist?
 	- What games do you like?
-- Discussion: what does it take to make a game?
+- **Discussion**: what does it take to make a game?
 	- Story
 	- Art
 	- Programming
 	- Feedback & Playtesting
-- Activity: Critical play of **[insert game]**, understanding the creative side of a game
+- **Activity**: Critical play of **[insert game]**, understanding the creative side of a game
 	- Everyone play game
 	- Independently fill out a worksheet/paper with directed analysis
 	- Class discussion analyzing the game
@@ -25,21 +35,59 @@
 		- What didn't we like
 		- What was the message or intent of the game
 		- Etc **[fill these in]** 
-- Activity: Simulating a computer, understanding the nuts and bolts of the logic of a game
+- **Activity**: Simulating a computer, understanding the nuts and bolts of the logic of a game
 	- Exercise designed to get everyone thinking about the logical, sequential mindset of programming
 	- [**Come back and explain how this will work**]
-- Demonstration: Welcome to Stencyl
+- **Demonstration**: Welcome to Stencyl
 	- Now that we've covered the general ideas behind game development, we can talk specifics
 	- Overview of Stencyl
-	- Creating a simple Actor that can walk around a scene
-- Activity: Making a basic platformer
-	- ...
-### Session 2 ###
+		- What is the interface
+		- What is an actor
+		- What is a behavior
+		- What is a tile
+		- What is a scene
+	- Along the way, creating a basic platformer on-the-fly
+		- Creating a sprite in Pencyl
+		- Creating a tileset in Pencyl 
+		- Tying it together to create an actor that can walk+jump around a tile-based scene
+- **Activity**: Making a basic platformer
+	- **This may require students to pair up**
+	- Now it's the student's turn to go through the steps of making their platformer
+		- Decide what you want your game to be about
+		- Plan out how to turn the screen into a level
+		- Pull out grid paper
+			- Draw actors
+			- Draw background
+			- Draw tiles
+		- Plan out logic
+		- Translate everything to Stencyl
+
+### Session 2: Building a complete platformer ###
+
+- **Discussion**: Overview and Schedule
+	- Writing (on the whiteboard) what we will we cover today
+- **Activity**: Critical play of **[insert game]**, a platformer with a meaning
+- **Activity**: Critical play of **[insert game]**, a game with unique game "feel"
+- **Demonstration**: Game feel
+	- So far, we've only focused on narrative coming from art, but equally important is the narrative from the mechanics
+	- Much like [Game Mechanic Explorer](http://gamemechanicexplorer.com/), we will play with physics and logic to create different feeling games:
+		- **ex 1**
+		- **ex 2**
+		- **ex 3**
+- **Activity**: Game feel
+	- Complement to the above demonstration
+- **Activity**: Adding game feel to your platformer
+
+
+
+
 ### Session 3 ###
 ### Session 4 ###
 ### Session 5 ###
 
 ## Week 2: Creating a final project ##
+
+Unity workshop?
 
 ### Session 6 ###
 ### Session 7 ###
