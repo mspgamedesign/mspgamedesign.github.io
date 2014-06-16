@@ -6,17 +6,17 @@ A collection of games that are meaningful, exceptional or useful for some teachi
 
 ## Paid ##
 
-- Portal 2
-- Braid
-- Journey
-- Superbrothers: Sword & Sworcery EP
-- Katamari Damacy
+- Portal 2 (unreliable narrator, silent protagonist)
+- Braid (puzzle progression to constantly break established mindsets)
+- Journey (nonverbal storytelling and co-op)
+- Superbrothers: Sword & Sworcery EP (gorgeous pixels, responsive world)
+- Katamari Damacy (hilarity)
 - Machinarium
 - Dear Esther (free alpha version)
 - The Stanley Parable (free alpha version)
 - TRAUMA
 - Thirty Flights of Loving
-- Half-Life
+- Half-Life (silent protagonist, doesn't beak immersion by removing agency during dialogue)
 - Kentucky Route Zero
 - Spy Party
 - VVVVVV
@@ -32,13 +32,25 @@ A collection of games that are meaningful, exceptional or useful for some teachi
 
 ## Free ##
 
-- Small Worlds
-- Canabalt
-- Spelunky
+- Small Worlds (environmental storytelling)
+- The End of Us (simplicity of story through gameplay)
+- Canabalt (simplicity and fluidity of visuals)
+- Spelunky (procedurally generated world)
+- Asphyx
+- Proteus (pure nonverbal exploration without goals)
+- N (wonderful game "feel")
+- The Majesty of Colors (multiple ending world)
+- Don’t Look Back
+- I Can Hold My Breath Forever
+- Imortall
+- One Chance
+- Passage
+- Loved (unreliable narrator)
+
+
 - Cave Story
-- Digital: A Love Story 
+- Digital: A Love Story (games in a new environment)
 - QWOP
-- The End of Us
 - Personal Trip to the Moon
 - Radiator Series
 - Souvenir
@@ -50,22 +62,18 @@ A collection of games that are meaningful, exceptional or useful for some teachi
 - Ladylike [remake]
 - Dream Fishing
 - Lim
-- Dys4ia
-- Asphyx
+- Dys4ia (auto-biographical storytelling, gameplay vignettes)
 - Game Title
-- Proteus
 - FRACT
 - A House in California
 - Octodad
 - Enviro-Bear 2000
 - Devils Tuning Fork
 - Blueberry Garden
-- N
 - Slave of God
 - How do you do it?
 - Martian Middle School Dance
 - Reset
-- The Majesty of Colors
 - Scarfmemory
 - Three Body Problem
 - Personal Trip to the Moon
@@ -75,7 +83,6 @@ A collection of games that are meaningful, exceptional or useful for some teachi
 - At a Distance
 - American Dream
 - Judith
-- Don’t Look Back
 - Pathways
 - Looming
 - 5 Colors Pandora
@@ -89,15 +96,10 @@ A collection of games that are meaningful, exceptional or useful for some teachi
 - Fotonica
 - Gravity Bone
 - Hummingbird Mind
-- I Can Hold My Breath Forever
 - Today I Die
 - [Together]
-- Imortall
-- One Chance
 - Brain Damage
 - Home
-- Passage
-- Loved
 - Coma
 - I Wish I Were the Moon
 - Elude
@@ -108,7 +110,7 @@ A collection of games that are meaningful, exceptional or useful for some teachi
 - Is it time?
 - Gamer Mom
 - Façade
-- The Marriage
+- The Marriages
 - flOw
 
 

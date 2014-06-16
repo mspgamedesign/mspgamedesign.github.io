@@ -2,6 +2,7 @@
 
 Just a brainstorming list for activities...
 
+- Critical play/analysis of a series of free games
 - Storyboarding
 - Principles of animation
 - Physically simulating a game to internalize the sequential logic of a computer
