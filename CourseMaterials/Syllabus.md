@@ -3,6 +3,9 @@
 
 ## Week 1: Designing a series of games in Stencyl and HTML5 ##
 
+Unless we go over to ATS for computers, the first day should be taught together.  After that, the class can be broken up into two sections - one taught by Mike and one by Kayla.  
+
+Each day is 9a-5p with an hour lunch.  
 
 ### Session 1: What is a game ###
 
@@ -87,13 +90,19 @@
 
 ## Week 2: Creating a final project ##
 
-Unity workshop?
 
 ### Session 6 ###
 ### Session 7 ###
 ### Session 8 ###
 ### Session 9 ###
+
+- **Activity** Catch up day
+	- Everyone needs to go back and finish any incomplete assignments
+- **Activity** Burn CDs with their work
+
 ### Session 10 ###
+
+- **Activity** Presentation day
 
 
 <!---

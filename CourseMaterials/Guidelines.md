@@ -4,10 +4,10 @@ With all of these guidelines, we'll have a classroom discussion and brainstorm t
 
 ## Classroom Behavior ##
 
-- Placeholder
-- Placeholder
-- Placeholder
-- Placeholder
+- No touching
+- No crocs
+- No gum
+- No food sharing
 
 ## Feedback ##
 
