@@ -1,35 +1,84 @@
 # Detailed Syllabus #
 
+MSP Game Design Camp!
 
-## Week 1: Designing a series of games in Stencyl and HTML5 ##
+## Week 1 ##
 
-Unless we go over to ATS for computers, the first day should be taught together.  After that, the class can be broken up into two sections - one taught by Mike and one by Kayla.  
+**Intended Outcome: Learn about experimental games and learn the process of making a game through designing a series of games in Stencyl and HTML5**
 
-Each day is 9a-5p with an hour lunch.  
+### Session 1: What is a game?! ###
 
-### Session 1: What is a game ###
-
-- **Discussion**: Introductions 
-	- Who are we
-	- Who are the students
-	- Icebreakers
-- **Discussion**: Overview and Schedule
-	- Writing (on the whiteboard) what we will we cover in the camp
-	- Writing (on the whiteboard) what we will we cover today
-- **Discussion**: General classroom rules
-	- Brainstorming the guidelines with the students
-	- Laying out how the sharing of resources will be used
-	- Write everything on the whiteboard
-- **Discussion**: video games as a form of creative expression
-	- What is the definition of a game?
-	- How does a game differ from comics, movies, books, etc.?
+- Introductions (estimated duration: 1h)
+	- Introduction to us
+	- Nametag and Name Game Icebreaker
+		- Get in a circle
+		- Write names on tags
+		- Have each person say 1) what you are hoping to learn and 2) the name of a game you like and what you like about it
+		- Name game OR two truths and a lie
+	- Overview and Schedule
+		- Write on whiteboard a general outline for the camp
+		- Write on whiteboard what we will we cover today
+	- General classroom rules
+		- Brainstorming the guidelines with the students
+		- Write everything on the board
+- What is a game? (estimated duration: 1h)
+	- Definition
+		- Everyone write down their definition on a card (save these, let's run this exercise again at the end)
+		- Have a few individuals read their definitions and we'll write them on the board
+		- Many people will mention "fun": ask them what does fun even mean?
+		- Additional prompt: How does a game differ from comics, movies, books, etc.?
 	- What types of games exist?
-	- What games do you like?
-- **Discussion**: what does it take to make a game?
-	- Story
-	- Art
-	- Programming
-	- Feedback & Playtesting
+		- Two whiteboard brainstorming exercises: brainstorming types of games ("genres") and then brainstorming what games can be about ("content").
+			- FPS, Puzzle, Platformer, etc.
+			- Portal 2: escape. Braid: epiphanies. Canabalt: speed. Angry Birds: slingshots. Etc.
+		- Goal: Games can be about anything and they don't have to be within a "genre"
+	- Experimental games (also, playtime!)
+		- Show off a large set of experimental games
+		- Have students play 1-2 games on laptops
+		- Discussion about their "content"
+- How does a computer/game work? (estimated duration: 1h)
+	- Logic statement exercise: "Play" as Mario
+		- Supplies needed: Paper and markers 
+		- Break into 4 groups of 6 students
+		- In each group, each student will draw a different image on their paper
+			- Role one: player; image: Nintendo controller
+			- Role two: Mario; image: mario's symbol
+			- Role three: "if" statement about left arrow key; image: directional pad left arrow 
+			- Role four: "if" statement about right arrow key; image: directional pad right arrow
+			- Role five: "then" statement about moving left; image: stick figure taking a step left
+			- Role six: "then" statement about moving right; image: stick figure taking a step right
+		- Flow: Player presses a button, the "if" statements check the controller, the "then" statements listen to the "if" statements, the "then" statements tell Mario what to do
+		- This exercise can be extended:
+			- There can be a goal
+			- There could be a puzzle that two avatars need to solve
+	- After the exercise, take a minute to reinforce the concepts that we learned
+- Lunch (estimated duration: 1h)
+	- Show a movie
+	- Show some video game trailers
+	- Play 7-Up
+	- Or release them into the cafe
+- What does it take to make a game? (estimated duration: 30m)
+	- Whiteboard brainstorming to ask what they think needs to go into a game
+	- Then organize it into general categories, pull down some examples of the various categories and put them into a slideshow
+		- Story
+		- Art
+		- Programming
+		- Feedback & Playtesting
+
+
+_
+
+_
+
+_
+
+_
+
+Rest of the schedule to be planned out:
+
+
+Design Documents
+
 - **Activity**: Critical play of **[insert game]**, understanding the creative side of a game
 	- Everyone play game
 	- Independently fill out a worksheet/paper with directed analysis
@@ -38,9 +87,6 @@ Each day is 9a-5p with an hour lunch.
 		- What didn't we like
 		- What was the message or intent of the game
 		- Etc **[fill these in]** 
-- **Activity**: Simulating a computer, understanding the nuts and bolts of the logic of a game
-	- Exercise designed to get everyone thinking about the logical, sequential mindset of programming
-	- [**Come back and explain how this will work**]
 - **Demonstration**: Welcome to Stencyl
 	- Now that we've covered the general ideas behind game development, we can talk specifics
 	- Overview of Stencyl
