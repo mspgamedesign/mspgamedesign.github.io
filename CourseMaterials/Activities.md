@@ -6,6 +6,7 @@ Just a brainstorming list for activities...
 - Class Trips
 	- Drawing in the park
 	- Making a game about the art in the Art Institute
+	- Cultural Center design exhibit
 - Create a parallax scrolling 2D world
 - Critical play/analysis of a series of free games
 - Storyboarding

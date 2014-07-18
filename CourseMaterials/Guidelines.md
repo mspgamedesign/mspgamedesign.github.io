@@ -2,6 +2,8 @@
 
 With all of these guidelines, we'll have a classroom discussion and brainstorm them on the whiteboard.  We'll guide that brainstorming to hit the criteria below.
 
+**Mention how sharing of resources and group exercises will work**
+
 ## Classroom Behavior ##
 
 - No touching
