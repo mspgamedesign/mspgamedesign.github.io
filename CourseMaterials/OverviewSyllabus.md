@@ -1,42 +1,54 @@
-Possible Split Syllabus
-
-//I think it's important to have them start to think about their final game early on, so most brainstorming is about that, and to encourage their idea to evolve as they learn more about games. Then at the end we can talk about how what they've learned in the class impacted their initial idea.
-
-
 || == half of the class does this, the other this
 
-### Day 1 (All) ###
-1. Meet and greet
-	1. Who we are
-	2. Overview of course and schedule, writing them on the board
-	3. Name tags exercise (will need paper+markers)
-	4. Rules "brainstorming," writing them on the board
-2. Video games/Computers Overview
-	1. Discussion/exercise around what a game is (what does fun even mean)
-	2. Critical play of a couple games (could be mixed in with the below exercises)
-	2. Bit game exercise - how do computers store information
-	3. **??** Exercise simulating a game - how do computers act 
+## Day 1: What is a game?! (All) ##
+1. Introductions (duration: 1h)
+2. What is a game? (duration: 1h30m)
+4. How does a computer/game work? (duration: 1h)
+3. Lunch (duration: 1h) 
+3. What does it take to make a game? (estimated duration: 1h)
+4. Stencyl Introduction: Making a Nyan Cat platformer! (estimated duration: 2h30m) 
 
-### Day 2 (All) ###
-1. Game Development Process
-	1. Storyboarding, planning, programming and iteration
-2. Stencyl Introduction
-	1. Overview of the interface
-	2. Demo of walking through a mini game development process using suggestions from the class
+## Day 2: Rules and Stories (All) ##
+1. Overview
+2. Storyboarding
+3. Discussion about giving feedback and collaborating
+4. Lunch
+5. The rules of a game
+6. Make a story game (modeled off of [I Wish I Were the Moon](http://www.kongregate.com/games/danielben/i-wish-i-were-the-moon))
 
-Day 3 
+### Day 3: Beginning Final Project ###
+
+
+
+
+
+
+
+.
+
+.
+
+.
+
+.
+
+.
+
+
+
+### Day 3 ###
 Open with game inspiration, talk about being aware of how the game is depicted, what you're playing it on 
 Building in Stencyl--one button game || Making paper (clay?) characters, exploring kinematics
 		Museum field trip
 
-Day 4 
+### Day 4 ###
 Gamespiration
 Finish Stencyl game 1 || Planning final game based off paper character design ... or ... pull three random words from a bag and design a game based off words (exquisite corpse-ish).
 
 ALL: Intro to HTML / JS
 Continue brainstorm FINAL game || begin using boilerplates to build word game in HTML/JS
 
-Day 5 
+### Day 5 ###
 Bring in old video game controllers, game history presentation 
 HTML/JS game continue || making a paper game // ctd brainstorm, act out game
 Museum
