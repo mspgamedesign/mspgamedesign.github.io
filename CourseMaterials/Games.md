@@ -2,19 +2,51 @@
 
 A collection of games that are meaningful, exceptional or useful for some teaching reason.  
 
+
+# Demo #
+- [Digital: A Love Story](http://scoutshonour.com/digital/)
+	- Demo or do a screen capture myself
+	- Game without an avatar, alternative interfaces
+- Braid (puzzle progression to constantly break established mindsets)
+- Portal 2 (unreliable narrator, silent protagonist)	
+- Journey (nonverbal storytelling and co-op)
+- TRAUMA
+
+# Play List #
+
+- [Small Worlds](http://jayisgames.com/games/small-worlds/#)
+	- Platformer
+		- Fixed jump height
+		- Constant velocity movement
+	- No possibility of "death"
+	- Mechanic AND story are both about exploration
+	- Narrative is conveyed without words, purely through environment
+	- Design note: pay attention to the forgiveness of the platforming.  You automatically walk over bumps (single pixels).
+- [Housefly](http://www.ludumdare.com/compo/ludum-dare-23/?action=preview&uid=2971)
+	- In-between a platformer and a point-and-click
+		- "Floaty" acceleration based movement
+	- Narrative without words, conveyed through environment and interaction
+	- No death
+
+# Unsure #
+
+- [Loved](http://www.alexanderocias.com/loved.php)
+	- Platformer
+		- Variable height jump
+		- Constant velocity movement
+	- Unreliable narrator
+	- Story (obedience/disobedience) told through mechanics and player action
+
+
 **Unfiltered, unordered list. Not yet for public consumption.**  Need to chop this down to a much smaller list with links and images.
 
 ## Paid ##
 
-- Portal 2 (unreliable narrator, silent protagonist)
-- Braid (puzzle progression to constantly break established mindsets)
-- Journey (nonverbal storytelling and co-op)
 - Superbrothers: Sword & Sworcery EP (gorgeous pixels, responsive world)
 - Katamari Damacy (hilarity)
 - Machinarium
 - Dear Esther (free alpha version)
 - The Stanley Parable (free alpha version)
-- TRAUMA
 - Thirty Flights of Loving
 - Half-Life (silent protagonist, doesn't beak immersion by removing agency during dialogue)
 - Kentucky Route Zero
@@ -32,7 +64,6 @@ A collection of games that are meaningful, exceptional or useful for some teachi
 
 ## Free ##
 
-- Small Worlds (environmental storytelling)
 - The End of Us (simplicity of story through gameplay)
 - Canabalt (simplicity and fluidity of visuals)
 - Spelunky (procedurally generated world)
@@ -45,17 +76,13 @@ A collection of games that are meaningful, exceptional or useful for some teachi
 - Imortall
 - One Chance
 - Passage
-- Loved (unreliable narrator)
-
-
+- Bathos (interface matters) http://johanpeitz.com/bathos/
 - Cave Story
-- Digital: A Love Story (games in a new environment)
 - QWOP
 - Personal Trip to the Moon
 - Radiator Series
 - Souvenir
 - The Game Trekking Omnibus
-- Housefly
 - Plan M
 - Ben There Dan That
 - Four Scepters
