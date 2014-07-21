@@ -3,18 +3,22 @@
 ## Day 1: What is a game?! (All) ##
 1. Introductions (duration: 1h)
 2. What is a game? (duration: 1h30m)
+3. Midmorning Break (10:30a, duration: 15m)
 4. How does a computer/game work? (duration: 1h)
-3. Lunch (duration: 1h) 
-3. What does it take to make a game? (estimated duration: 1h)
-4. Stencyl Introduction: Making a Nyan Cat platformer! (estimated duration: 2h30m) 
+5. Lunch (duration: 1h) 
+6. What does it take to make a game? (estimated duration: 1h)
+7. Midafternoon Break (3:00p, duration: 15m)
+8. Stencyl Introduction: Making a Nyan Cat platformer! (estimated duration: 2h30m) 
 
 ## Day 2: Rules and Stories (All) ##
 1. Overview
 2. Storyboarding
-3. Discussion about giving feedback and collaborating
-4. Lunch
-5. The rules of a game
-6. Make a story game (modeled off of [I Wish I Were the Moon](http://www.kongregate.com/games/danielben/i-wish-i-were-the-moon))
+3. Midmorning Break (duration: 15m)
+4. Discussion about giving feedback and collaborating
+5. Lunch
+6. The rules of a game
+7. Midafternoon Break (duration: 15m)
+8. Make a story game (modeled off of [I Wish I Were the Moon](http://www.kongregate.com/games/danielben/i-wish-i-were-the-moon))
 
 ### Day 3: Beginning Final Project ###
 

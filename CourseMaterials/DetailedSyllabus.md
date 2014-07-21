@@ -30,8 +30,8 @@
 		- Additional prompt: How does a game differ from comics, movies, books, etc.?
 	- What types of games exist?
 		- Two whiteboard brainstorming exercises: brainstorming types of games ("genres") and then brainstorming what games can be about ("content").
-			- FPS, Puzzle, Platformer, Point-and-click, etc.
-			- Portal 2: escape. Braid: epiphanies. Canabalt: speed. Angry Birds: slingshots. Etc.
+			- Fighting, Shooter, Adventure, Role-playing, Strategy, Dance, Horror, Simulation, Sports, Puzzle, Platformer, Point-and-click, etc.
+			- Portal 2: escape. Braid: epiphanies. Canabalt: speed. Angry Birds: slingshots. Minecraft: construction. Etc.
 		- Goal: Games can be about anything and they don't have to be within a "genre"
 	- Experimental games (also, playtime!)
 		- Show off a large set of experimental games
@@ -43,11 +43,11 @@
 		- Break into 4 groups of 6 students
 		- In each group, each student will draw a different image on their paper
 			- Role one: player; image: Nintendo controller
-			- Role two: Mario; image: mario's symbol
-			- Role three: "if" statement about left arrow key; image: directional pad left arrow 
-			- Role four: "if" statement about right arrow key; image: directional pad right arrow
-			- Role five: "then" statement about moving left; image: stick figure taking a step left
-			- Role six: "then" statement about moving right; image: stick figure taking a step right
+			- Role two: Mario; image: Mario's symbol
+			- Role three: "if" statement about left/right arrow key; image: directional pad arrow 
+			- Role four: "if" statement about the jump key; image: NES A Button
+			- Role five: "then" statement about moving left/right; image: stick figure taking a step
+			- Role six: "then" statement about jumping; image: stick figure jumping
 		- Flow: Player presses a button, the "if" statements check the controller, the "then" statements listen to the "if" statements, the "then" statements tell Mario what to do
 		- This exercise can be extended:
 			- There can be a goal, e.g. getting to the flag
