@@ -11,6 +11,8 @@ A collection of games that are meaningful, exceptional or useful for some teachi
 - Portal 2 (unreliable narrator, silent protagonist)	
 - Journey (nonverbal storytelling and co-op)
 - TRAUMA
+- VVVVVV
+- Katamari Damacy (hilarity)
 
 # Play List #
 
@@ -27,6 +29,8 @@ A collection of games that are meaningful, exceptional or useful for some teachi
 		- "Floaty" acceleration based movement
 	- Narrative without words, conveyed through environment and interaction
 	- No death
+- The End of Us (simplicity of story through gameplay)
+- Canabalt (simplicity and fluidity of visuals)
 
 # Unsure #
 
@@ -43,7 +47,6 @@ A collection of games that are meaningful, exceptional or useful for some teachi
 ## Paid ##
 
 - Superbrothers: Sword & Sworcery EP (gorgeous pixels, responsive world)
-- Katamari Damacy (hilarity)
 - Machinarium
 - Dear Esther (free alpha version)
 - The Stanley Parable (free alpha version)
@@ -51,7 +54,6 @@ A collection of games that are meaningful, exceptional or useful for some teachi
 - Half-Life (silent protagonist, doesn't beak immersion by removing agency during dialogue)
 - Kentucky Route Zero
 - Spy Party
-- VVVVVV
 - World of Goo
 - Minecraft
 - Super Meat Boy
@@ -64,8 +66,6 @@ A collection of games that are meaningful, exceptional or useful for some teachi
 
 ## Free ##
 
-- The End of Us (simplicity of story through gameplay)
-- Canabalt (simplicity and fluidity of visuals)
 - Spelunky (procedurally generated world)
 - Asphyx
 - Proteus (pure nonverbal exploration without goals)
