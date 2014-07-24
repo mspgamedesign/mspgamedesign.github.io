@@ -1,0 +1,62 @@
+<html>
+
+<head>
+
+
+<style type="text/css">
+ 
+{margin: 0; padding: 0; }
+
+html { 
+        background: url('closehouse.png') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+
+
+			#realhouse {
+				position:fixed;
+				left:800px;
+				top:130px;
+			}
+
+h4 { position: fixed;
+top: 50px;
+left: 25px;
+}
+
+h3 { position: fixed;
+top: -100%;
+left: -100%;
+z-index: 3; 
+background-image: url();}
+
+
+h2 { position: fixed;
+top: 300px;
+left: 500px;
+z-index: 2; 
+background-image: url();}
+
+h1 { position: fixed;
+top: -20px;
+right: 0px;
+z-index: 1; 
+background-image: url();}
+
+ }
+
+</style>
+</head>
+<body style="">
+<a href="livingroom.html" title="What's in here?"><img id="realhouse" src="realhouse.gif" width="50%" height="90%"></a>
+<h4><img src="stormgif/clouds.png"></h4>
+<h3><img src=""></h3>
+<h2><img src=""></h2>
+<h1><img src=""></h1>
+
+</body>
+</html>

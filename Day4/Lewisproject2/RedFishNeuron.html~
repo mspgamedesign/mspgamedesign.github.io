@@ -1,0 +1,57 @@
+<html>
+
+<head>
+
+
+<style type="text/css">
+ 
+{margin: 0; padding: 0; }
+
+html { 
+        background: url('scaleframe.png') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+
+
+			#redneurons {
+				position:relative;
+				left:50px;
+				top:100px;
+			}
+
+h3 { position: fixed;
+top: 600px;
+left: 1650px;
+z-index: 3; 
+background-image: url(redfin.png);}
+
+
+h2 { position: fixed;
+top: 300px;
+left: 500px;
+z-index: 2; 
+background-image: url();}
+
+h1 { position: fixed;
+top: -20px;
+right: 0px;
+z-index: 1; 
+background-image: url();}
+
+ }
+
+</style>
+</head>
+<body style="">
+<a href="house.html" title="What's in here?"><img id="redneurons" src="redneurons.gif" width="100%" height="100%"></a>
+<h3><a href="project2site.html"><img src="redfin.png"></h3>
+<h2><img src=""></h2>
+<h1><img src=""></h1>
+
+</body>
+</html>
+

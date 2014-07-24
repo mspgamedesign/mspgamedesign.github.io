@@ -1,0 +1,76 @@
+<html>
+<head>
+<script type="text/javascript" src="jquery-1.8.2.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+   // Change the image of hoverable images
+   $(".imgHoverable").hover( function() {
+       var hoverImg = HoverImgOf($(this).attr("src"));
+       $(this).attr("src", hoverImg);
+     }, function() {
+       var normalImg = NormalImgOf($(this).attr("src"));
+       $(this).attr("src", normalImg);
+     }
+   );
+});
+
+function HoverImgOf(filename)
+{
+   var re = new RegExp("(.+)\\.(gif|png|jpg)", "g");
+   return filename.replace(re, "$1_hover.$2");
+}
+function NormalImgOf(filename)
+{
+   var re = new RegExp("(.+)_hover\\.(gif|png|jpg)", "g");
+   return filename.replace(re, "$1.$2");
+}
+</script>
+
+<style type="text/css">
+
+h4 { position: fixed; 
+top: 150px;
+left: -60px;
+z-index: 5;
+background-image: url(LeftFog.png);}
+
+h3 { position: fixed;
+top: 40;
+left: 1000px;
+z-index: 3; 
+background-image: url(GoldPlanet.png);}
+
+
+h2 { position: fixed;
+top: 500px;
+left: 600px;
+z-index: 2; 
+background-image: url(blueplanet.png);}
+
+h1 { position: fixed;
+top: -20px;
+right: 0px;
+z-index: 1; 
+background-image: url(RightFog.png);}
+
+
+body { position: fixed;
+top: 30px;
+left: 50px;
+background-image: url(Space.png);
+ }
+
+</style>
+</head>
+<body style="">
+
+<h5><a href="RedFishNeuron.html"><img class="imgHoverable" src="RedPlanet.png"></h5>
+<h4><img src="LeftFog.png"></h4>
+<h3><a href="goldneurons.html"><img class="imgHoverable" src="GoldPlanet.png"></h3>
+<h2><a href="blueneuron.html"><img class="imgHoverable" src="bluePlanet.png"></h2>
+<h1><img src="RightFog.png"></h1>
+
+
+</body>
+</html>
+
