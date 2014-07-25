@@ -1,13 +1,13 @@
-# Guidelines #
-
-With all of these guidelines, we'll have a classroom discussion and brainstorm them on the whiteboard.  We'll guide that brainstorming to hit the criteria below.
+# Rules #
 
 ## Classroom Behavior ##
 
-- Placeholder
-- Placeholder
-- Placeholder
-- Placeholder
+- No touching
+- No crocs
+- No food sharing
+- Be patient and take turns when sharing
+- No profanity
+- Raise your hand
 
 ## Feedback ##
 
