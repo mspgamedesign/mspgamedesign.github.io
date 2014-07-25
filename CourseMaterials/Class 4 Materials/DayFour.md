@@ -10,9 +10,9 @@ Break 15min
 
 Finish up HTML ideas/scan 1hr
 
-Split: HTML/CSS example and Tutorial // Stencyl 1hr
-
 Lunch
+
+Split: HTML/CSS example and Tutorial // Stencyl 1hr
 
 Split again 1hr
 
