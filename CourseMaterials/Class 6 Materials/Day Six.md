@@ -5,6 +5,12 @@
 - Have a student or two who were doing well come up and play a game at the start of class (**9a-9.15a**)
 	- Hopefully this will kill enough time for everyone else to get here
 	- Should be HTML games, but Which ones?
+	- Some non-HTML ideas:
+		- Alphaland
+		- The Majesty of Colors
+		- I Wish I Were the Moon
+		- A Dark Room
+		- The Dream Machine
 - Building HTML game lesson (**9.15a-10.15a**):
 	- Refresher HTML Lesson
 		- Whiteboard
@@ -42,7 +48,10 @@
 - Mid-morning Break (**10.15a-10.30a**)
 - Class split (**10.30a-11.30a**)
 	- Half on computers.  Pair them up with buddies to whom they can ask questions.
-	- Half at back table.  Have them plan out their HTML games on paper?  Something else?
+	- Half at back table.  Options:
+		- Exquisite corpse storyboards
+		- Have them plan out their HTML or Stencyl games on paper
+		- Intro to JS lesson
 - Class split, switch (**11.30a-12.30p**)
 - Lunch (**12.30p-1.30p**)
 - Another class split?
