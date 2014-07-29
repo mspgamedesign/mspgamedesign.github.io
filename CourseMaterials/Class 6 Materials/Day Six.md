@@ -14,7 +14,8 @@
 - Building HTML game lesson (**9.15a-10.15a**):
 	- Refresher HTML Lesson
 		- Whiteboard
-			- What is a tag?  Review: a and img.  Nesting as russian dolls.  Using tabs for clarity. 
+			- What is HTML?  Every website is just a text file rendered by a browser.
+			- What is a tag?  Review: a and img.  Nesting as russian dolls.  Using tabs for clarity (whitespace doesn't matter). 
 			- What is an attribute? Examples: src, id and href.
 			- What is styling? Explain: top, left, width.
 			- Write instructions:
