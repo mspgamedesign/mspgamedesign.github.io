@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <style>
+   body {
+
+            font-family: "Geneva";
+        }
+
+        p {
+            top: 0px;
+            left: 0px;
+            width: 400px;
+
+        }
+  </style>
+  <title>
+   Zach Upshaw
+  </title>
+ </head>
+ <body>
+  <script type="text/javascript">
+   var confirmed = confirm("Time to play the donut game!'");
+
+        if (confirmed === true) {
+
+            var times = prompt("Did he ate 200 donuts in a week?");
+
+            if (times === "yes") {
+                document.write("<p>Correct</p>");
+            }
+            else {
+                document.write("<p>Wrong.</p>");
+            }
+
+            document.write("<p>He ate 200 donuts in a week.</p>");
+            document.write("<p>He ate donuts, jelly donuts, longjohn's, and muchkin's.</p>");
+
+            var userAnswer = prompt("How did the guy get very sick?");
+
+            if (userAnswer === "food poison") {
+                document.write("<p>You're right. He ate a jelly donut with food poison in the filling.</p>");
+            }                
+            else {
+                document.write("<p>Wrong!.He ate a jelly donut with food poison in the filling.</p>");
+            }
+            document.write("<p>He went to the hospital and got healthy the doctor said don't eat to much donuts son.</p>");
+            var feedback = prompt("Did he learn his lesson?");
+
+            if (feedback === "yes")
+            {
+                document.write("<p>Correct. You are really smart!</p>");
+            }
+            else {
+                document.write("<p>Wrong again?</p>");        
+            }
+
+        }
+  </script>
+  <p>
+   <a href="../../index.html">
+    Back to Games List
+   </a>
+  </p>
+ </body>
+</html>

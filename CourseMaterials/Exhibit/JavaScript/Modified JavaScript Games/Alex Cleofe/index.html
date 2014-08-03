@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <style>
+   body {
+
+            font-family: "Geneva";
+        }
+
+        p {
+            top: 0px;
+            left: 0px;
+            width: 400px;
+
+        }
+  </style>
+  <title>
+   Alex Cleofe
+  </title>
+ </head>
+ <body>
+  <script type="text/javascript">
+   var confirmed = confirm("You are on a plane. Next to you is a person snoring nonstop, and on the other side is a man who keeps on sneezing. This is a 12 hour flight, and then you have a 3 hour flight right after to get to your destination.");
+
+        if (confirmed === true) {
+
+            var times = prompt("How many human beings are on the plane, including the flight attendants, pilot, etc.?");
+
+            if (times < 30) {
+                document.write("<p>That's way off. This plane has 80 humans on it.</p>");
+            }
+            if (times > 120) {
+                document.write("<p>That's way off. This plane has 80 humans on it.</p>");
+            }
+            else {
+                document.write("<p>Close. There are 80 humans.</p>");
+            }
+
+            document.write("<p>Every time the person on your right sneezes, you flinch and accidentally hit the person on your left, who is snoring.</p>");
+            document.write("<p>The person on your left finally wakes up and he asks 'what's your name?'.</p>")
+
+            var userAnswer = prompt("What's your name?");
+
+            if (userAnswer === "Alex!") {
+                document.write("<p>If you said your name is Alex, YOU'RE AWESOME!</p>");
+            }                
+            else {
+                document.write("<p>You tell him your name. You and him talk for a while. Then you fall asleep.</p>");
+            }
+                    
+            var feedback = prompt("Last question! What is name of the creator of this 'game'?");
+
+            if (feedback === "Alex Cleofe")
+            {
+                document.write("<p>Correct! YOU WIN!!!!!!</p>");
+            }
+            else {
+                document.write("<p>Ohhh! Better luck next time!</p>");        
+            }
+
+        }
+  </script>
+  <p>
+   <a href="../../index.html">
+    Back to Games List
+   </a>
+  </p>
+ </body>
+</html>
