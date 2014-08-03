@@ -1,39 +1,39 @@
-/*comment*/
 
-body {
-	font-family: "Geneva";
-	font-size: 14px;
+body, ul, header, .content, footer {
+
+font-family: "Geneva", "Tahoma" sans-serif;
+font-size:14px;
 
 }
+
+
 
 ul {
 
-	font-family: "Geneva", sans-serif;
-	font-size: 14px;
+	
 	color: rgb(51, 51, 51);
 	line-height: 50px;
 	
-
 }
+
 
 ul li {
 
 
 
+}
 
+a:link,a:visited,a:hover,a:active {
+
+color:rgb(66,206,179);
+text-decoration:none;
 
 }
 
-header {
-
-	font-size: 2em;
-}
 
 
 .content {
-	
-	
-	padding-left: 100px;
+	margin-left: 100px;
 	margin-right: 100px;
 	color: rgb(51,51,51);	
 
@@ -41,12 +41,11 @@ header {
 
 footer {
 
-	font-family: "Geneva",sans-serif;
-	font-size: 14px;
-	font-style: normal;
 	color:white;
 	background-color: rgb(204, 71, 68);
 	text-align: center;
+	margin-top: 400px;	
+
 
 
 }
