@@ -1,5 +1,10 @@
 # Day 9 Notes #
 
+- Artist Statement
+- Narrative of game
+- Atmosphere of the game
+
+
 **9a - 9.30a:** 
 
 - Freeplay games (time to break out weird 3D games?)
