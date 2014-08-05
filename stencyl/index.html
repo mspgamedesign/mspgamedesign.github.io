@@ -3,15 +3,15 @@ layout: page
 title: Platformer Game
 ---
  
-  Platformer games were built using the <a href= "http://www.stencyl.com">Stencyl</a> game engine. Students first designed storyboards and shared their game narrative to the class to receive feedback. Once their ideas were complete, students then began building the game on the computer using Photoshop to design characters and scenes before exporting them into Stencyl. Components such as physics and other character properties were designated in Stencyl, which encourages the use of logic similar to that of computer programming.
+  2D platformer games were built using the <a href= "http://www.stencyl.com">Stencyl</a> game engine. Students started by designing their games using pencil and paper storyboards.  After presenting their designs to the class for feedback, students then worked in Photoshop to design their characters and their world before exporting them into Stencyl.  Finally, students added logic such as physics, controls, animation, triggers, etc. using Stencyl’s visual, drag-and-drop computer programming interface.
 
-<ul class="entriespage">
+<ul class="list-games">
   
   {% for post in site.tags.stencyl %}
 
  <li>
     <a href="{{ post.url }}">
-      <h3>{{ post.title }}</h3>
+		{{ post.title }}
     </a>
   </li>
 

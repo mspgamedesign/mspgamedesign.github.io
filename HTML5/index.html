@@ -2,16 +2,16 @@
 layout: page
 title: Exploratory Game
 ---
- 
-  In the exploratory games, students used HTML and CSS to come up with a scenario that requires players to navigate through a story. Pictures and text were handrawn by the student. These projects emphasized the creative process through planning, drawing, scanning images into the computer, and applying them to the site. Students also learned about HTML relationships by creating multiple pages that connect to one another in multiple ways. 
 
- <ul class= "list-unstyled">
+In the exploratory games, students used HTML and CSS to come up with an interactive site that allows players to navigate through a story only using hyperlinks.  All of the planning for the game was done on pencil and paper.  Pictures and text were handrawn by the student, and later, scanned into the computers.  The logic of the game was mapped out on paper in a giant flow chart.  After the planning, then the student learned to translate their drawings and flow charts into playable HTML games.
+
+ <ul class= "list-games">
   
   {% for post in site.tags.HTML5 %}
 
  <li>
     <a href="{{ post.url }}">
-      <h3>{{ post.title }}</h3>
+		{{ post.title }}
     </a>
   </li>
 

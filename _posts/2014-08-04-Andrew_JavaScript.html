@@ -1,0 +1,43 @@
+---
+layout: javascriptGame
+title: Andrew
+tags: JavaScript
+---
+<script type="text/javascript">
+   var confirmed = confirm("You and your three friends wake up in a small room and you hear a ticking sound, its a bomb.When you wake up and one of your friends tells you your other friend is a vampire.");
+
+        if (confirmed === true) {
+
+            var times = prompt("do you believe him?");
+
+            if (times === "yes") {
+                document.write("<p>You and your friend beat up the 'vampire' friend.</p>");
+            }
+            else {
+                document.write("<p>Your vampire friend attacks your other friend and tells you 'I always liked you,your fine.'.</p>");
+            }
+
+            document.write("<p>You and your normal friend look at the bomb, it reads 30 seconds.</p>");
+            document.write("<p>You and your vampire friend look at the bomb it reads 30 seconds.</p>")
+
+            var userAnswer = prompt("Do you cut the red wire?");
+
+            if (userAnswer === "yes") {
+                document.write("<p>Nothing happens.</p>");
+            }                
+            else {
+                document.write("<p>It blows up!</p>");
+            }
+                    
+            var feedback = prompt("do you cut the blue wire?");
+
+            if (feedback === "yes")
+            {
+                document.write("<p>The bomb continues to tic intill it blows.</p>");
+            }
+            else {
+                document.write("<p>The bombs hits 0 and nothing happens you look around and you live!</p>");        
+            }
+
+        }
+  </script>

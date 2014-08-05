@@ -1,17 +1,17 @@
 ---
 layout: page
-title: Build Your Own Adventure
+title: Choose Your Own Adventure
 ---
  
-Using Build Your Own Adventure games, students wrote stories that require players to choose between possibilities, thus affecting the game's outcome. Using JavaScript, students worked from a template to generate the stories. This game shares similar concepts to the Exploratory Game project, which informs students of the multitude of approaches possible for designing one game. 
+Using choose-your-own-adventure games as a model, students wrote JavaScript text games that require players to choose between possibilities to affect the game's outcome.  Students created short, branching stories on paper, with content ranging from stories about flying pig detectives to writing an essay for English class.  Then students worked with displaying their texts interactively in JavaScript.  
 
-<ul class="entriespage">
+<ul class="list-games">
   
-  {% for post in site.tags.javascript %}
+  {% for post in site.tags.JavaScript %}
 
  <li>
     <a href="{{ post.url }}">
-      <h3>{{ post.title }}</h3>
+		{{ post.title }}
     </a>
   </li>
 

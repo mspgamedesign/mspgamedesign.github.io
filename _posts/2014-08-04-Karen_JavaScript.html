@@ -1,0 +1,42 @@
+---
+layout: javascriptGame
+title: Karen
+tags: JavaScript
+---
+<script type="text/javascript">
+   var confirmed = confirm("You are a huge crimson dragon and you have moved caves. You have been gifted the ability to turn human from a cut from an enchanted dagger, so it is easier to steal objects to add to your hoard. When you were back in your old home, you were feared for being merciless and ravenous. However, you are thinking about becoming more unlike a traditional beast, and show those humans that some dragons can be civilized. Or maybe this is just you starting to become a wuss. Who knows.");
+
+        if (confirmed === true) {
+
+            var times = prompt("You have learned that, like most kingdoms, this one has rooms upon rooms of gold. Depending on the amount you want to steal, you will use your human or dragon form to steal it. If you steal more than 100 bars of gold, you will have to remain in dragon form, and the citizens of the kindgom will be wary of your heists. If you want to steal 100 bars or less, you will use human form, which will leave the citizens unaware of your heist. How much do you steal?");
+
+            if (times < 100) {
+                document.write("<p>You decide to steal a little bit of gold. You changed into human form and hid in the shadows, knocking out the guards in your way one by one. It was relatively easy, and it seems like nobody noticed. Even though you don't have that much gold, the members of the kindgom aren't on guard, so it would be easier to steal gold again.</p>");
+            }
+            else {
+                document.write("<p>You decide to steal a ton of gold. You used your dragon form to overwhelm the guards, and you didn't have to be stealthy. Your hoard has grown a lot due to this recent addition. It seems like your fiery breath has melted some of the gold, though. Oh well.</p>");
+            }
+
+            document.write("<p>Your gold looks very nice in your hoard, and you have used it to decorate the outside of your hoard. You have also added some of the gold onto your armor, and you think you look pretty nice. You were glad you stole the amount you did. </p>");
+            document.write("<p>The kingdom's princess turned 18 today, and you know because of the huge parade going on inside the castle walls. What a ruckus they are creating, and you wish they would quiet down a bit. That's when the idea comes to you. You've heard tales of your brothers and sisters abducting princesses, and you thought you would give it a try, you could have some company, and its getting awfully lonely up here.</p>")
+
+            var userAnswer = prompt("Do you want to abduct the princess?");
+
+            if (userAnswer === "yes") {
+                document.write("<p>You swoop down, right in the middle of the parade, snatching up the fair maiden. You take care not to drop her. as you wamt her to come back alive. There's no point in having dead, company, and it sure is depressing. When you arrive at your hoard, the princess is taken aback by the size of your hoard. You change into human form to help her feel more at home. It sure is a good thing the kingdom can't hear her screams all the way up here.</p>");
+            }                
+            else {
+                document.write("<p>You decide to not abduct the princess, however you can't let all that food go to waste. You visit the kingdom as a human to socialize, and also get something to fill your belly as well.</p>");
+            }
+                    
+            var feedback = prompt("It's been about a year since the birthday of the princess, and this kingdom is starting to bore you. Do you want to eat all of the people and plunder to village (to go out with a bang)?");
+            if (feedback === "yes")
+            {
+                document.write("<p>Without mercy, you gobble up everybody in every village, and plunder their houses. They never saw it coming, and it was pretty satisfying. You decide to go onto the next kingdom, and you are thinking of changing your routine..</p>");
+            }
+            else {
+                document.write("<p>You decided to not plunder the kingdom. However, the people are grateful that you spared their lives, so they decide to reward you with half of their livestock, and some of the gold in their treasury. They send a message to neighboring kingdoms that there is a kind dragon around, which means that they will trust you. Maybe, because of this, you gained more than you would have if you had just eaten them all.  </p>");        
+            }
+
+        }
+  </script>

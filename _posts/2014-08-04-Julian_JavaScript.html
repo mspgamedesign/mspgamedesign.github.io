@@ -1,0 +1,46 @@
+---
+layout: javascriptGame
+title: Julian
+tags: JavaScript
+---
+<script type="text/javascript">
+   var confirmed = confirm("Quick, defuse the atomic time bomb or else Earth will explode!");
+        if (confirmed === true) {
+
+            var times = prompt("Wait, what number do we need to start defusing?!");
+
+            if (times == 50) {
+                document.write("<p>Oh yeah! 50!</p>");
+                
+                document.write("<p>All right you're doing great buddy.</p>");
+				document.write("<p>Now lets keep going.</p>")
+
+				var userAnswer = prompt("Do we connect the red wire to the blue wire?");
+
+				if (userAnswer === "yes") {
+					document.write("<p>Good we're alive!</p>");
+					
+					var feedback = prompt("Do we cut the green wire?");
+
+					if (feedback === "yes")
+					{
+						document.write("<p>Great! We're done!</p>");
+					}
+					else {
+						document.write("<p>You messed everything up and we died!</p>");        
+					}
+				}                
+				else {
+					document.write("<p>Well now everyone died you idiot!</p>");
+				}
+					
+				
+			}
+			else {
+				document.write("<p>You lose. We all blew up.</p>");
+			}
+
+            
+
+        }
+  </script>

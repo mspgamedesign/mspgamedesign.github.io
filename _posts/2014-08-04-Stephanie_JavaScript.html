@@ -1,0 +1,34 @@
+---
+layout: javascriptGame
+title: Stephanie
+tags: JavaScript
+---
+<script type="text/javascript">
+   var confirmed = confirm("Your teacher tells you to write an essay.");
+
+        if (confirmed === true) {
+
+            var times = prompt("What should you write about? Potatoes or dragons?");
+
+            if (times === "dragon") {
+                document.write("<p> You write about dragons. What else should you add? More dragons or unicorns?</p>");
+            }
+            else {
+                document.write("<p>You write about potatoes. </p>");
+            }
+			
+			var secondQuestion = prompt(" What else should you add? More of your selection or unicorns?");
+			
+			
+            var userAnswer = prompt("You're almost done. What should you add to your last part? Goats or diamonds?");
+
+            if (userAnswer === "goats") {
+                document.write("<p> The next day you hand in your essay and your teacher corrects it and gives you a 98%</p>");
+            }                
+            else {
+                document.write("<p> The next day you hand in your essay and your teacher corrects it and gives you a 64%.</p>");
+            }
+                    
+           
+        }
+  </script>
