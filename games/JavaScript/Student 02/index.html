@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <style>
+   body {
+
+            font-family: "Geneva";
+        }
+
+        p {
+            top: 0px;
+            left: 0px;
+            width: 400px;
+
+        }
+  </style>
+  <title>
+   Alex W
+  </title>
+ </head>
+ <body>
+  <script type="text/javascript">
+   var confirmed = confirm("There was once a snail who attempted to escape from prison, because he was wrongly evicted selling tomatoes on the black market. The escape would take a while, because he is a snail.");
+
+        if (confirmed === true) {
+
+            var times = prompt("The snail had managed to survive his daring escape. How many weeks did it take him to get out?");
+
+            if (times < 6) {
+                document.write("<p>That's a bit off. The snail is in fact very very slow. It took him a total of 6 weeks to escape the prison.</p>");
+            }
+            else {
+                document.write("<p>That's very close. It took him a total of 6 weeks to escape the prison .</p>");
+            }
+
+            document.write("<p>Now that the snail was free from his unlawful charges he decided to start fresh in the world. But before he could do that he had to get some food, because breaking out of prison made him very hungry.</p>");
+            document.write("<p>Down the road he slowly stumbled across a McDonalds. He was very hungry so he decided to take a look inside.</p>")
+
+            var userAnswer = prompt("Should the snail have gone into the McDonalds, not knowing the dangers that may lay ahead?");
+
+            if (userAnswer === "yes") {
+                document.write("<p>You're right, there was in fact no trouble for the snail when he decided to explore the McDonalds, except for a scary clown mascot.</p>");
+            }                
+            else {
+                document.write("<p>It can be understood that you were worried for the small fragile snail, not knowing the possible danger ahead, but there was in fact no trouble for he snail when he decided to explore the McDonalds, except for a scary clown mascot.</p>");
+            }
+                    
+            var feedback = prompt("In the McDonalds he finds a stash of food. In the stash there are both tomatoes and salt. Should he eat the tomatoes? Be quick, he's very hungry.");
+
+            if (feedback === "yes")
+            {
+                document.write("<p>Right choice! Snails happen to love tomatoes. After the first night at McDonalds, the snail decided to stay. And some say, to this day, you can still go to a McDonalds and see the same snail, just siting and eating tomatoes.</p>");
+            }
+            else {
+                document.write("<p>Well, good try): Snails are actually deadly allergic to salt, so he went along with the tomatoes. Snails happen to love tomatoes. After the first night at McDonalds, the snail decided to stay. And some say, to this day, you can still go to a McDonalds and see the same snail, just siting and eating tomatoes.</p>");        
+            }
+
+        }
+  </script>
+  <p>
+   <a href="../../index.html">
+    Back to Games List
+   </a>
+  </p>
+ </body>
+</html>

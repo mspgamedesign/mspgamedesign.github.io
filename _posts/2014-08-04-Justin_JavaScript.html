@@ -1,0 +1,43 @@
+---
+layout: javascriptGame
+title: Justin
+tags: JavaScript
+---
+<script type="text/javascript">
+   var confirmed = confirm("This story is about some random guy who hates all the bug in the world");
+
+        if (confirmed === true) {
+
+            var times = prompt("How many times last week did he try and kill a bug?");
+
+            if (times < 350) {
+                document.write("<p>That's way off. This boy is very dramatic. He tried to kill 563 bugs.</p>");
+            }
+            else {
+                document.write("<p>Close. He tried to kill a bug 563 times.</p>");
+            }
+
+            document.write("<p>He killed 1265 bugs in all that year. </p>");
+            document.write("<p>One day he changed him mind about killing bugs. He decided to respect there life, and he made a funeral for all of them.</p>")
+
+            var userAnswer = prompt("Do you think that this man is good for killing all the bugs?");
+
+            if (userAnswer === "yes") {
+                document.write("<p>I disagree but it is your opinion. </p>");
+            }                
+            else {
+                document.write("<p>I agree with you.</p>");
+            }
+                    
+            var feedback = prompt("Can you resist not killing any bugs unless it is %100 necessary?");
+
+            if (feedback === "yes")
+            {
+                document.write("<p>Great!</p>");
+            }
+            else {
+                document.write("<p>That's fine.You can work on improving that. </p>");        
+            }
+
+        }
+  </script>

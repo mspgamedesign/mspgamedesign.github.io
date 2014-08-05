@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <style>
+   body {
+
+            font-family: "Geneva";
+        }
+
+        p {
+            top: 0px;
+            left: 0px;
+            width: 400px;
+
+        }
+  </style>
+  <title>
+   Noah
+  </title>
+ </head>
+ <body>
+  <script type="text/javascript">
+   var confirmed = confirm("There is a sudden flash of light. You are in a room in an alternate dimension! But you have to be sure. ");
+
+        if (confirmed === true) {
+
+            var times = prompt("Do you want to test that you are in an alternate dimension?");
+            if (times == "yes") {
+                document.write("<p>Correct! The Machine worked! Another sudden flash of light Teleports you away.</p>");
+            }
+            else {
+                document.write("<p>You walk out the door in the room and are immediately grabbed by a dragon! Too late you found out that you are in an alternate dimension! Go back.</p>");
+            } 
+
+            document.write("<p>You encounter another dimension with a good part and a bad part. It's Chicago.</p>")
+
+            var userAnswer = prompt("Do you want to encounter the good part of the dimension or the bad part?");
+
+            if (userAnswer === "good") {
+                document.write("<p> You are teleported to a version of the City of Chicago. There is no trash on the ground. However, you notice heavily armed guards on every street. You realize that while the city is clean, it is ruled by an evil dictator.</p>");
+            }                
+            else {
+                document.write("<p>You are transported to a City of Chicago with people walking around as if it just a normal day. However, the streets and the sidewalks are completely covered in trash, and the air is thick and covered in smog. Again, another flash of light occurs.</p>");
+            }
+                    
+            document.write("<p>You are now in a bunker. all there is in the bunker is a table with a map that has several targets marked on Russia on it and a red button.</p>");
+            
+            var feedback = prompt(" Do you press the button?");
+
+            if (feedback === "yes")
+            {
+                document.write("<p>You hear a deep rumble from outside. Then silence. But then a general comes in and starts removing the targets from Russia on the map. He sees you, freezes, but then begins to shake your hand.</p>");
+            }
+            else {
+                document.write("<p>a alarm begins to beep frantically. An angry general bursts into the room, then sees the button unpressed, and begins to cry uncontrollably. You then hear a rumble, growing louder by the second, until it becomes deafening. You then see a white flash. But this time, you don't teleport.</p>");        
+            }
+
+        }
+  </script>
+  <p>
+   <a href="../../index.html">
+    Back to Games List
+   </a>
+  </p>
+ </body>
+</html>

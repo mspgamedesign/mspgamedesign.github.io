@@ -50,4 +50,15 @@ footer {
 
 }
 
-
+/*
+	Styling for listing games on the Stencyl, JavaScript and HTML pages
+*/
+.list-games {
+	margin: 0.7em 0 0 0;
+	list-style: none;
+	font-size: 1.25em;
+	line-height: 100%;
+}
+.list-games li {
+	margin-bottom: 0.7em; 
+}
