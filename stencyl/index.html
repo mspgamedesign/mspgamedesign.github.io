@@ -5,164 +5,36 @@ title: Platformer Game
 
 2D platformer games were built using the <a href= "http://www.stencyl.com">Stencyl</a> game engine. Students started by designing their games using pencil and paper storyboards.  After presenting their designs to the class for feedback, students then worked in Photoshop to design their characters and their world before exporting them into Stencyl.  Finally, students added logic such as physics, controls, animation, triggers, etc. using Stencyl’s visual, drag-and-drop computer programming interface.
 
-<div class='row'>
-	<a href='../2014/08/04/Alex C_Stencyl.html'>
-		<figure class='grid-third'>
-			<img src='../games/Stencyl/Student 01/Cheat Sheet Hunt.png'>
-			<figcaption>Alex C</figcaption>
-		</figure>
-	</a>
-	<a href='../2014/08/04/Alex W_Stencyl.html'>
-		<figure class='grid-third'>
-			<img src='../games/Stencyl/Student 02/Deep.png'>
-			<figcaption>Alex W</figcaption>
-		</figure>
-	</a>
-	<a href='../2014/08/04/Andrew_Stencyl.html'>
-		<figure class='grid-third'>
-			<img src='../games/Stencyl/Student 03/Gold Rush.png'>
-			<figcaption>Andrew</figcaption>
-		</figure>
-	</a>
-</div>
+{% comment %} 
+The code below loops through all the posts with a certain tag and inserts the appropriate HTML formatting for Kraken's grid to put everything neatly into a 3-column grid.
+This link was super helpful in figuring out the liquid code: https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
+{% endcomment %}
 
+{% for post in site.tags.stencyl %}
+{% assign loopindex = forloop.index | modulo: 3 %}
+{% case loopindex %}
+{% when 1 %}
 <div class='row'>
-	<a href='../2014/08/04/Brendan_Stencyl.html'>
+	<a href={{ post.url }}>
 		<figure class='grid-third'>
-			<img src='../games/Stencyl/Student 04/Stolen.png'>
-			<figcaption>Brendan</figcaption>
+			<img src='{{ post.screenshotURL }}'>
+			<figcaption>{{ post.studentName }}</figcaption>
 		</figure>
 	</a>
-	<a href='../2014/08/04/Christian_Stencyl.html'>
+{% when 2 %}
+	<a href={{ post.url }}>
 		<figure class='grid-third'>
-			<img src='../games/Stencyl/Student 05/The Office of Colors.png'>
-			<figcaption>Christian</figcaption>
+			<img src='{{ post.screenshotURL }}'>
+			<figcaption>{{ post.studentName }}</figcaption>
 		</figure>
 	</a>
-	<a href='../2014/08/04/Ella_Stencyl.html'>
+{% else %}
+	<a href={{ post.url }}>
 		<figure class='grid-third'>
-			<img src='../games/Stencyl/Student 06/Save Summer.png'>
-			<figcaption>Ella</figcaption>
+			<img src='{{ post.screenshotURL }}'>
+			<figcaption>{{ post.studentName }}</figcaption>
 		</figure>
 	</a>
 </div>
-
-<div class='row'>
-	<a href='../2014/08/04/James_Stencyl.html'>
-		<figure class='grid-third'>
-			<img src='../games/Stencyl/Student 07/A Cool Game.png'>
-			<figcaption>James</figcaption>
-		</figure>
-	</a>
-	<a href='../2014/08/04/Josue_Stencyl.html'>
-		<figure class='grid-third'>
-			<img src='../games/Stencyl/Student 08/Ultra Jump.png'>
-			<figcaption>Josue</figcaption>
-		</figure>
-	</a>
-	<a href='../2014/08/04/Julian_Stencyl.html'>
-		<figure class='grid-third'>
-			<img src='../games/Stencyl/Student 09/World of Hair.png'>
-			<figcaption>Julian</figcaption>
-		</figure>
-	</a>
-</div>
-
-<div class='row'>
-	<a href='../2014/08/04/Justin_Stencyl.html'>
-		<figure class='grid-third'>
-			<img src='../games/Stencyl/Student 10/Block Jump.png'>
-			<figcaption>Justin</figcaption>
-		</figure>
-	</a>
-	<a href='../2014/08/04/Karen_Stencyl.html'>
-		<figure class='grid-third'>
-			<img src='../games/Stencyl/Student 11/Technicolor.png'>
-			<figcaption>Karen</figcaption>
-		</figure>
-	</a>
-	<a href='../2014/08/04/Mac_Stencyl.html'>
-		<figure class='grid-third'>
-			<img src='../games/Stencyl/Student 12/Cape Run.png'>
-			<figcaption>Mac</figcaption>
-		</figure>
-	</a>
-</div>
-
-<div class='row'>
-	<a href='../2014/08/04/Matt_Stencyl.html'>
-		<figure class='grid-third'>
-			<img src='../games/Stencyl/Student 13/A_Game.png'>
-			<figcaption>Matt</figcaption>
-		</figure>
-	</a>
-	<a href='../2014/08/04/Noah_Stencyl.html'>
-		<figure class='grid-third'>
-			<img src='../games/Stencyl/Student 14/Street Pacifist.png'>
-			<figcaption>Noah</figcaption>
-		</figure>
-	</a>
-	<a href='../2014/08/04/Paytyn_Stencyl.html'>
-		<figure class='grid-third'>
-			<img src='../games/Stencyl/Student 15/Swiper.png'>
-			<figcaption>Paytyn</figcaption>
-		</figure>
-	</a>
-</div>
-
-<div class='row'>
-	<a href='../2014/08/04/Sky_Stencyl.html'>
-		<figure class='grid-third'>
-			<img src='../games/Stencyl/Student 16/Stealth Run.png'>
-			<figcaption>Sky</figcaption>
-		</figure>
-	</a>
-	<a href='../2014/08/04/Stephanie_Stencyl.html'>
-		<figure class='grid-third'>
-			<img src='../games/Stencyl/Student 17/Walter the Blob.png'>
-			<figcaption>Stephanie</figcaption>
-		</figure>
-	</a>
-	<a href='../2014/08/04/Tasha_Stencyl.html'>
-		<figure class='grid-third'>
-			<img src='../games/Stencyl/Student 18/Adventures Of Myrna.png'>
-			<figcaption>Tasha</figcaption>
-		</figure>
-	</a>
-</div>
-
-<div class='row'>
-	<a href='../2014/08/04/Tommaso_Stencyl.html'>
-		<figure class='grid-third'>
-			<img src='../games/Stencyl/Student 19/Save Humanity.png'>
-			<figcaption>Tommaso</figcaption>
-		</figure>
-	</a>
-	<a href='../2014/08/04/Upasana_Stencyl.html'>
-		<figure class='grid-third'>
-			<img src='../games/Stencyl/Student 20/Pharohs Right Hand.png'>
-			<figcaption>Upasana</figcaption>
-		</figure>
-	</a>
-	<a href='../2014/08/04/Zack U_Stencyl.html'>
-		<figure class='grid-third'>
-			<img src='../games/Stencyl/Student 21/Rainbow Time Machine.png'>
-			<figcaption>Zack U</figcaption>
-		</figure>
-	</a>
-</div>
-
-<div class='row'>
-	<a href='../2014/08/04/Zack W_Stencyl.html'>
-		<figure class='grid-third'>
-			<img src='../games/Stencyl/Student 22/Ladie Lawyer.png'>
-			<figcaption>Zack W</figcaption>
-		</figure>
-	</a>
-	<a href='../2014/08/04/Zoe_Stencyl.html'>
-		<figure class='grid-third'>
-			<img src='../games/Stencyl/Student 23/Labyrinth.png'>
-			<figcaption>Zoe</figcaption>
-		</figure>
-	</a>
-</div>
+{% endcase %}
+{% endfor %}

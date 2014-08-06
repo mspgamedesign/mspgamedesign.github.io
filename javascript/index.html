@@ -5,17 +5,36 @@ title: Choose Your Own Adventure
  
 Using choose-your-own-adventure games as a model, students wrote JavaScript text games that require players to choose between possibilities to affect the game's outcome.  Students created short, branching stories on paper, with content ranging from stories about flying pig detectives to writing an essay for English class.  Then students worked with displaying their texts interactively in JavaScript.  
 
-<ul class="list-games">
-  
-  {% for post in site.tags.JavaScript %}
+{% comment %} 
+The code below loops through all the posts with a certain tag and inserts the appropriate HTML formatting for Kraken's grid to put everything neatly into a 3-column grid.
+This link was super helpful in figuring out the liquid code: https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
+{% endcomment %}
 
- <li>
-    <a href="{{ post.url }}">
-		{{ post.title }}
-    </a>
-  </li>
-
-
-  {% endfor %}
-
-</ul>
+{% for post in site.tags.JavaScript %}
+{% assign loopindex = forloop.index | modulo: 3 %}
+{% case loopindex %}
+{% when 1 %}
+<div class='row'>
+	<a href={{ post.url }}>
+		<figure class='grid-third'>
+			<img src='{{ post.screenshotURL }}'>
+			<figcaption>{{ post.studentName }}</figcaption>
+		</figure>
+	</a>
+{% when 2 %}
+	<a href={{ post.url }}>
+		<figure class='grid-third'>
+			<img src='{{ post.screenshotURL }}'>
+			<figcaption>{{ post.studentName }}</figcaption>
+		</figure>
+	</a>
+{% else %}
+	<a href={{ post.url }}>
+		<figure class='grid-third'>
+			<img src='{{ post.screenshotURL }}'>
+			<figcaption>{{ post.studentName }}</figcaption>
+		</figure>
+	</a>
+</div>
+{% endcase %}
+{% endfor %}

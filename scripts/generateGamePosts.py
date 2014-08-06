@@ -33,8 +33,10 @@ for anonName in dAliases:
 			# yaml front matter
 			fh.write("---\n")
 			fh.write("layout: htmlGame\n")
-			fh.write("title: "+alias+"\n")
-			fh.write("tags: HTML5\n")
+			fh.write("title: {0}\n".format(alias))
+			fh.write("tags: HTML\n")
+			fh.write("studentName: {0}\n".format(alias))
+			fh.write("screenshotURL: ../../../games/HTML/{0}/screenshot.png\n".format(anonName))
 			fh.write("---\n")
 
 			# yaml content
@@ -52,8 +54,10 @@ for anonName in dAliases:
 			# yaml front matter
 			fh.write("---\n")
 			fh.write("layout: javascriptGame\n")
-			fh.write("title: "+alias+"\n")
+			fh.write("title: {0}\n".format(alias))
 			fh.write("tags: JavaScript\n")
+			fh.write("studentName: {0}\n".format(alias))
+			fh.write("screenshotURL: ../../../games/JavaScript/{0}/screenshot.png\n".format(anonName))
 			fh.write("---\n")
 
 			# yaml content
@@ -72,13 +76,16 @@ for anonName in dAliases:
 			width, height = fh.readline().split(":")[-1].split(",")
 			width, height = width.strip(), height.strip()
 		swfFilename = title+".swf"
+		screenshotFilename = title+".png"
 
 		with open(pathToPost, "w") as fh:
 			# yaml front matter
 			fh.write("---\n")
 			fh.write("layout: stencylGame\n")
-			fh.write("title: "+alias+"\n")
+			fh.write("title: {0}\n".format(alias))
 			fh.write("tags: stencyl\n")
+			fh.write("studentName: {0}\n".format(alias))
+			fh.write("screenshotURL: ../../../games/Stencyl/{0}/{1}\n".format(anonName, screenshotFilename))
 			fh.write("---\n")
 
 			# yaml content
