@@ -50,6 +50,7 @@ footer {
 
 }
 
+
 /*
 	Styling for listing games on the Stencyl, JavaScript and HTML pages
 */
@@ -61,4 +62,26 @@ footer {
 }
 .list-games li {
 	margin-bottom: 0.7em; 
+}
+
+/*
+	Styling for the Stencyl, JavaScript and HTML project description page
+*/
+figure {
+	padding-top: 1.4%; /* This is to match the Kraken left/right padding on grid elements*/
+	padding-bottom: 1.4%;
+}
+figure img {
+	width: 100%;
+	vertical-align: top;
+}
+figure img:hover {
+	opacity: 0.5;
+}
+figure figcaption {
+	width: 100%;
+	text-align: center;
+	background: #42ceb3;
+	color: #fff;
+	font-size: 1.25em;
 }

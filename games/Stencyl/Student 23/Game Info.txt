@@ -1,0 +1,2 @@
+Title: Labyrinth
+Resolution: 640, 480

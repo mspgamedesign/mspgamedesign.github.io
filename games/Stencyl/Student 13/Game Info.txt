@@ -1,0 +1,2 @@
+Title: A_Game
+Resolution: 640, 480

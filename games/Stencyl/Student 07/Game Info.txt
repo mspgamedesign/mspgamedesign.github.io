@@ -1,0 +1,2 @@
+Title: A Cool Game
+Resolution: 960, 640
