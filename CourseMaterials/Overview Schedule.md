@@ -1,6 +1,3 @@
-Link to inspirations?
-Post templates?
-
 # Welcome! #
 
 Welcome to course website for the 2014 Video Game Design Camp! It was an intensive two-week summer class for Middle Schools that was taught through the [Continuing Studies](http://www.saic.edu/cs/) department at [The School of the Art Institute](http://www.saic.edu/index.html). The class was co-taught by Kayla Lewis **link** and Michael Hadley **link**.
