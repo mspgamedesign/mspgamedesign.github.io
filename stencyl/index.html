@@ -1,9 +1,67 @@
 ---
 layout: page
-title: Platformer Game
+title: Platformer Games
 ---
 
-2D platformer games were built using the <a href= "http://www.stencyl.com">Stencyl</a> game engine. Students started by designing their games using pencil and paper storyboards.  After presenting their designs to the class for feedback, students then worked in Photoshop to design their characters and their world before exporting them into Stencyl.  Finally, students added logic such as physics, controls, animation, triggers, etc. using Stencyl’s visual, drag-and-drop computer programming interface.
+<p>2D platformer games were built using the <a href= "http://www.stencyl.com">Stencyl</a> game engine. Students started by designing their games using pencil and paper storyboards.  After presenting their designs to the class for feedback, students then worked in Photoshop to design their characters and their world before exporting them into Stencyl.  Finally, students added logic such as physics, controls, animation, triggers, etc. using Stencyl’s visual, drag-and-drop computer programming interface.</p>
+
+<h2>Photos of work-in-progress:</h2>
+
+<div class='row'>
+	<a href="progress1.jpg">
+		<figure class='grid-fourth'>
+			<img src='progress1.jpg'>
+		</figure>
+	</a>
+	<a href="progress2.jpg">
+		<figure class='grid-fourth'>
+			<img src='progress2.jpg'>
+		</figure>
+	</a>
+	<a href="progress3.jpg">
+		<figure class='grid-fourth'>
+			<img src='progress3.jpg'>
+		</figure>
+	</a>
+	<a href="progress4.jpg">
+		<figure class='grid-fourth'>
+			<img src='progress4.jpg'>
+		</figure>
+	</a>
+</div>
+
+
+<h2>Recommended Student Games:</h2>
+
+<div class='row'>
+	<a href="/2014/08/04/Paytyn_Stencyl.html">
+		<figure class='grid-fourth'>
+			<img src='../../../games/Stencyl/Student 15/Swiper.png' style="border: 1px solid #42ceb3;">
+			<figcaption>Paytyn</figcaption>
+		</figure>
+	</a>
+	<a href="/2014/08/04/Alex%20W_Stencyl.html">
+		<figure class='grid-fourth'>
+			<img src='../../../games/Stencyl/Student 02/Deep.png'>
+			<figcaption>Alex W</figcaption>
+		</figure>
+	</a>
+	<a href="/2014/08/04/Karen_Stencyl.html">
+		<figure class='grid-fourth'>
+			<img src='../../../games/Stencyl/Student 11/Technicolor.png' style="border: 1px solid #42ceb3;">
+			<figcaption>Karen</figcaption>
+		</figure>
+	</a>
+	<a href="/2014/08/04/Julian_Stencyl.html">
+		<figure class='grid-fourth'>
+			<img src='../../../games/Stencyl/Student 09/World of Hair.png'>
+			<figcaption>Julian</figcaption>
+		</figure>
+	</a>
+</div>
+
+
+<h2>All Student Games:</h2>
 
 {% comment %} 
 The code below loops through all the posts with a certain tag and inserts the appropriate HTML formatting for Kraken's grid to put everything neatly into a 3-column grid.
@@ -11,26 +69,33 @@ This link was super helpful in figuring out the liquid code: https://github.com/
 {% endcomment %}
 
 {% for post in site.tags.stencyl %}
-{% assign loopindex = forloop.index | modulo: 3 %}
+{% assign loopindex = forloop.index | modulo: 4 %}
 {% case loopindex %}
 {% when 1 %}
 <div class='row'>
-	<a href={{ post.url }}>
-		<figure class='grid-third'>
+	<a href="{{ post.url }}">
+		<figure class='grid-fourth'>
 			<img src='{{ post.screenshotURL }}'>
 			<figcaption>{{ post.studentName }}</figcaption>
 		</figure>
 	</a>
 {% when 2 %}
-	<a href={{ post.url }}>
-		<figure class='grid-third'>
+	<a href="{{ post.url }}">
+		<figure class='grid-fourth'>
+			<img src='{{ post.screenshotURL }}'>
+			<figcaption>{{ post.studentName }}</figcaption>
+		</figure>
+	</a>
+{% when 3 %}
+	<a href="{{ post.url }}">
+		<figure class='grid-fourth'>
 			<img src='{{ post.screenshotURL }}'>
 			<figcaption>{{ post.studentName }}</figcaption>
 		</figure>
 	</a>
 {% else %}
-	<a href={{ post.url }}>
-		<figure class='grid-third'>
+	<a href="{{ post.url }}">
+		<figure class='grid-fourth'>
 			<img src='{{ post.screenshotURL }}'>
 			<figcaption>{{ post.studentName }}</figcaption>
 		</figure>

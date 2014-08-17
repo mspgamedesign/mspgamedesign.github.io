@@ -98,7 +98,7 @@ figure figcaption {
 }
 .schedule-day li {
 	margin-left: 1em;
-	height: 1.5em;
+	line-height: 140%;
 }
 .schedule-day li:first-child {
 	margin-left: 0;

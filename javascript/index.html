@@ -1,9 +1,67 @@
 ---
 layout: page
-title: Choose Your Own Adventure
+title: Text Games
 ---
  
-Using choose-your-own-adventure games as a model, students wrote JavaScript text games that require players to choose between possibilities to affect the game's outcome.  Students created short, branching stories on paper, with content ranging from stories about flying pig detectives to writing an essay for English class.  Then students worked with displaying their texts interactively in JavaScript.  
+<p>Using choose-your-own-adventure games as a model, students wrote JavaScript text games that require players to choose between possibilities to affect the game's outcome.  Students created short, branching stories on paper, with content ranging from stories about flying pig detectives to writing an essay for English class.  Then students worked with displaying their texts interactively in JavaScript.  <strong>Note: these games will not work in Safari, but they will work fine in Chrome and IE.</strong></p>
+
+<h2>Photos of work-in-progress:</h2>
+
+<div class='row'>
+	<a href="progress1.jpg">
+		<figure class='grid-fourth'>
+			<img src='progress1.jpg'>
+		</figure>
+	</a>
+	<a href="progress2.jpg">
+		<figure class='grid-fourth'>
+			<img src='progress2.jpg'>
+		</figure>
+	</a>
+	<a href="progress3.jpg">
+		<figure class='grid-fourth'>
+			<img src='progress3.jpg'>
+		</figure>
+	</a>
+	<a href="progress4.jpg">
+		<figure class='grid-fourth'>
+			<img src='progress4.jpg'>
+		</figure>
+	</a>
+</div>
+
+
+<h2>Recommended Student Games:</h2>
+
+<div class='row'>
+	<a href="/2014/08/04/Josue_JavaScript.html">
+		<figure class='grid-fourth'>
+			<img src='../../../games/JavaScript/Student 08/screenshot.png'>
+			<figcaption>Josue</figcaption>
+		</figure>
+	</a>
+	<a href="/2014/08/04/Noah_JavaScript.html">
+		<figure class='grid-fourth'>
+			<img src='../../../games/JavaScript/Student 14/screenshot.png'>
+			<figcaption>Noah</figcaption>
+		</figure>
+	</a>
+	<a href="/2014/08/04/Paytyn_JavaScript.html">
+		<figure class='grid-fourth'>
+			<img src='../../../games/JavaScript/Student 15/screenshot.png'>
+			<figcaption>Paytyn</figcaption>
+		</figure>
+	</a>
+	<a href="/2014/08/04/Ella_JavaScript.html">
+		<figure class='grid-fourth'>
+			<img src='../../../games/JavaScript/Student 06/screenshot.png'>
+			<figcaption>Ella</figcaption>
+		</figure>
+	</a>
+</div>
+
+
+<h2>All Student Games:</h2>
 
 {% comment %} 
 The code below loops through all the posts with a certain tag and inserts the appropriate HTML formatting for Kraken's grid to put everything neatly into a 3-column grid.
@@ -11,26 +69,33 @@ This link was super helpful in figuring out the liquid code: https://github.com/
 {% endcomment %}
 
 {% for post in site.tags.JavaScript %}
-{% assign loopindex = forloop.index | modulo: 3 %}
+{% assign loopindex = forloop.index | modulo: 4 %}
 {% case loopindex %}
 {% when 1 %}
 <div class='row'>
-	<a href={{ post.url }}>
-		<figure class='grid-third'>
+	<a href="{{ post.url }}">
+		<figure class='grid-fourth'>
 			<img src='{{ post.screenshotURL }}'>
 			<figcaption>{{ post.studentName }}</figcaption>
 		</figure>
 	</a>
 {% when 2 %}
-	<a href={{ post.url }}>
-		<figure class='grid-third'>
+	<a href="{{ post.url }}">
+		<figure class='grid-fourth'>
+			<img src='{{ post.screenshotURL }}'>
+			<figcaption>{{ post.studentName }}</figcaption>
+		</figure>
+	</a>
+{% when 3 %}
+	<a href="{{ post.url }}">
+		<figure class='grid-fourth'>
 			<img src='{{ post.screenshotURL }}'>
 			<figcaption>{{ post.studentName }}</figcaption>
 		</figure>
 	</a>
 {% else %}
-	<a href={{ post.url }}>
-		<figure class='grid-third'>
+	<a href="{{ post.url }}">
+		<figure class='grid-fourth'>
 			<img src='{{ post.screenshotURL }}'>
 			<figcaption>{{ post.studentName }}</figcaption>
 		</figure>
